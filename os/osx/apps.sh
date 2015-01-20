@@ -1,47 +1,47 @@
 #
 # Application installer (via brew-cask)
 #
+# qlcolorcode - Quicklook files with syntax highlighting
+# qlprettypatch - Quicklook at path files
+# qlmarkdown - Quicklook markdown files with formatting
+# qlstephen - Quicklook for plain text files with no extension
+# quicklook-json - JSON formatted in Quicklook
+# 
+#
+#
+#
 
 set -e
 
 # Apps
 apps=(
+  qlcolorcode
+  qlprettypatch
+  qlmarkdown
+  qlstephen
+  quicklook-json
+  firefox
+  opera
+  google-chrome
   alfred
   dropbox
-  google-chrome
-  qlcolorcode
-  screenflick
   slack
-  transmit
-  appcleaner
-  firefox
-  hazel
-  qlmarkdown
   seil
   spotify
   vagrant
-  arq
   flash
   iterm2
-  qlprettypatch
   shiori
   sublime-text3
   virtualbox
-  atom
-  flux
-  mailbox
-  qlstephen
   sketch
-  tower
   vlc
-  cloudup
   font-m-plus
-  nvalt
-  quicklook-json
   skype
-  transmission
-  apikitchen
-  mamp
+  lightpaper
+  evernote
+  dash
+  spectacle
 )
 
 # fonts

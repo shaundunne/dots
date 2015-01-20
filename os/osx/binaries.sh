@@ -17,8 +17,8 @@ brew install coreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew install findutils
 
-# Install Bash 4
-brew install bash
+# Install Zsh
+brew install zsh
 
 # Install more recent versions of some OS X tools
 brew tap homebrew/dupes
@@ -47,7 +47,7 @@ brew install ${binaries[@]}
 
 # Add osx specific command line tools
 if test ! $(which subl); then
-  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+  ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/st
 fi
 
 # Install spot
